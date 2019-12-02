@@ -21,7 +21,9 @@ class FBM2D:
         self.fbb_gen = FBM(n=int(1.5*self.N), hurst=self.H, length=1.5) #init generator for fractional Brownian motion
     
     def fbs(self):
-        
+        """
+        returnes fractional Brownian surface (scalar fractional Brownian motion) in 2D
+        """
         #generate self.L bands with equidistant angles theta between band and x-axis
         theta_i = np.linspace(0,np.pi,self.L+1)[:-1] #angles
         oneDfbm = np.zeros((self.L,int(1.5*self.N)+1))    
