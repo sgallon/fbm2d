@@ -4,6 +4,9 @@ This is a short implementation of the turning bands method for the simulation of
 Yin, Z-M. "New methods for simulation of fractional Brownian motion." Journal of computational physics 127.1 (1996): 66-72.
 https://doi.org/10.1006/jcph.1996.0158
 
+# Usage
+Before executing run `make` to compile [2Dfbm.f90](2Dfbm.f90).
+A simple example can be found in [here](2Dfbm.f90).
 
 # Dependencies
 fbm https://github.com/crflynn/fbm
