@@ -5,8 +5,8 @@ Yin, Z-M. "New methods for simulation of fractional Brownian motion." Journal of
 https://doi.org/10.1006/jcph.1996.0158
 
 # Usage
-Before executing run `make` to compile [2Dfbm.f90](2Dfbm.f90).
-A simple example can be found in [here](2Dfbm.f90).
+Before executing run `make` to compile [2Dfbm.f90](2Dfbm.f90).  
+A simple example can be found in [here](example.py).
 
 # Dependencies
 fbm https://github.com/crflynn/fbm
